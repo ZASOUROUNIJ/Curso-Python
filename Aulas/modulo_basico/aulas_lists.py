@@ -20,27 +20,27 @@ import clear
 lista = [10, 20, 30, 40]
 
 #append - adiciona valores ao final da lista
-clear.limpar_terminal()
+clear.l_t()
 print(f'lista : {lista}')
 lista.append(50)
 print(f'Append adiciona valor ao final da lista (50) : {lista}')
 input()
 
 #pop - remove o ultimo elemento
-clear.limpar_terminal()
+clear.l_t()
 print(f'lista : {lista}')
 lista.pop()
 print(f'pop remove ultimo valor (50) : {lista}')
 input()
 #pop remoção por indice
-clear.limpar_terminal()
+clear.l_t()
 print(f'lista : {lista}')
 lista.pop(0)
 print(f'pop Remoção por indice do indice 0(10) {lista}')
 input()
 
 #insert
-clear.limpar_terminal()
+clear.l_t()
 print(f'lista : {lista}')
 print(lista)
 lista.insert(2,5)
@@ -48,14 +48,14 @@ print(f'insert inserindo o valor 5 na posição 2 {lista}')
 input()
 
 #del
-clear.limpar_terminal()
+clear.l_t()
 print(f'lista : {lista}')
 del lista[-1]
 print(f'del removendo o ultimo indice : {lista}')
 input()
 
 # concatenação, extend
-clear.limpar_terminal()
+clear.l_t()
 lista_a = [1, 2, 3]
 lista_b = [4, 5, 6]
 lista_c = lista_a + lista_b
